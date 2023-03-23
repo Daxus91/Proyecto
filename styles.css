@@ -1,5 +1,13 @@
+body{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
 .containerBig{
-    background-color: aqua;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,21 +17,22 @@
 }
 
 .boxOne{
-    background-color: orange;
+    background-color: black;
     display: flex;
 
 }
 
 .boxTwo{
-    background-color: violet;
+    background-color: black;
     display: flex;
 }
 
 .separame{
     margin: 5px;
-    border: solid 2px black;
+    border: solid 2px rgba(246, 246, 25, 0.497);
     border-radius: 5px;
     padding: 2px;
+    color: bisque;
 }
 
 .imagen{
@@ -31,4 +40,6 @@
     width: 60px;
     height: 60px;
 }
+
+
 
